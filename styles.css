@@ -100,17 +100,17 @@ p {
 .underline {
     text-decoration: underline;
 }
-
+/* COPY ACROSS ALL FOOTER CSS */
 footer {
     width:100%;
     margin: 5px auto;
-    background: linear-gradient( rgb(18, 11, 85), rgb(52,40,150));
+    background: linear-gradient( rgb(18, 11, 85), rgb(141, 133, 199));
     display: block;
     padding: 15px 10px;
     text-align: center;
-    color: white;
+    color: rgb(248, 248, 240);
 }
-footer p, a {
+footer h4, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer a{
@@ -118,6 +118,7 @@ footer a{
     display: inline-block;
     margin:7px;
     cursor: pointer;
+    font-size: smaller;
 
 }
 
@@ -126,3 +127,11 @@ footer a:hover {
     text-decoration-style: wavy;
 
 }
+
+.material-icons.position {
+position: relative;
+top:5px;
+color: gold;
+}
+/* END FOOTER COPY ALL CSS */
+
