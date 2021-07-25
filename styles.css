@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    background-color:silver;
+    margin: 0;
+}
+
+#container {
+    width:90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding:10px 20px 20px;
+    background-color:ghostwhite; 
+}
+h1 {
+    Font-weight: 900;
+    Font-size: 26px;
+    Font-family: 'Roboto';   
+}
+h2 {
+    Font-weight: 500;
+    Font-size: 18px;
+    Font-family: 'Shadows Into Light';
+}
+p {
+    display: block;
+    Font-weight: 400;
+    Font-size: 14px;
+    Font-family: 'Zen Loop';
+    
+}
+
+#container h1 {
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    
+}
+
+.box {
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    width:100%;
+
+}
+#colorContainer {
+    margin:0 auto;
+    padding:10px;
+    
+}
+
+.colorBox {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid white;
+}
+
+.colorBox p:nth-child(odd) {
+    font-weight: 700;
+}
+
+.aliceBlue {
+    background-color: AliceBlue;
+}
+
+.aqua {
+    background-color: Aqua;
+}
+
+.antiqueWhite {
+    background-color: antiqueWhite;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.shadowsIntoLight {
+    font-family: 'Shadows Into Light', cursive;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.zen {
+    font-family: 'Zen Loop', cursive;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+footer {
+    width:100%;
+    margin: 5px auto;
+    background: linear-gradient( rgb(18, 11, 85), rgb(52,40,150));
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+footer p, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a{
+    color: white;
+    display: inline-block;
+    margin:7px;
+    cursor: pointer;
+
+}
+
+footer a:hover {
+    color:rgb(181, 243, 243);
+    text-decoration-style: wavy;
+
+}
